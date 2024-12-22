@@ -1,0 +1,30 @@
+body{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div{
+    border: 3px solid black;
+   min-height:25vw;
+}
+    
+
+   .hello{
+    border-radius: 50%;
+    margin-top: 20px;
+   margin-left: 140px;
+
+   }
+   .hi{
+    margin-left: 20px;
+   }
+   h3, h4, p {
+            margin: 7px;
+        }
+    @media(max-width:600px){
+        .div{
+            padding: 14px;
+        }
+
+    }
